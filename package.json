@@ -1,0 +1,24 @@
+{
+  "name": "graphql-example-server",
+  "version": "1.0.0",
+  "description": "Example of basic implementation of GraphQL server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G3F4/graphql-example-server.git"
+  },
+  "keywords": [
+    "graphql",
+    "example",
+    "server"
+  ],
+  "author": "G3F4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G3F4/graphql-example-server/issues"
+  },
+  "homepage": "https://github.com/G3F4/graphql-example-server#readme"
+}
