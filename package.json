@@ -4,7 +4,9 @@
   "description": "Example of basic implementation of GraphQL server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --harmony index.js",
+    "dev:watch": "nodemon -x \"node --harmony\" index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/G3F4/graphql-example-server/issues"
   },
-  "homepage": "https://github.com/G3F4/graphql-example-server#readme"
+  "homepage": "https://github.com/G3F4/graphql-example-server#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
