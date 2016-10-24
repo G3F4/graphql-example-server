@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --harmony index.js",
-    "dev:watch": "nodemon -x \"node --harmony\" index.js"
+    "dev": "node index.js",
+    "dev:watch": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -24,9 +24,13 @@
   },
   "homepage": "https://github.com/G3F4/graphql-example-server#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "babel-register": "^6.16.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "graphql": "^0.7.2"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.16.0",
     "nodemon": "^1.11.0"
   }
 }
