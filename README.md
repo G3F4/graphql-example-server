@@ -25,13 +25,13 @@
 6. start server
 7. test server with CURL
 
-## ADDING TEST FOR SERVER
+## ??ADDING TEST ENVIRONMENT
 
 1. install chai, chai-http, mocha as development dependencies
 2. create test folder
 3. add to package.json test script
 
-## ADDING TEST FOR SERVER
+## ??ADDING TEST FOR SERVER
 
 1. create server.test.js file in test folder, within:
     * use babel-register hook with es2015 presets for test environment
@@ -44,7 +44,7 @@
         * hello message
     * !remember to call done callback after async operation are done
 
-## ADDING NODEMON FOR AUTOMATIC RESTART SERVER
+## ?ADDING NODEMON FOR AUTOMATIC RESTART SERVER
 
 1. install nodemon with npm and development save flag
 2. add to package.json script starting server in watch mode
@@ -59,7 +59,7 @@
 	* create scheme
 	* export scheme
 
-## ADD SCHEMA BASIC TEST
+## ??ADD SCHEMA BASIC TEST
 
 1. create scheme.test.js in test folder, within:
     * require babel-register hook
