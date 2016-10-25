@@ -79,3 +79,17 @@
 4. graphql execution returns Promise. Use it to resolve parsed data.
 5. send data to client
 6. add new test to server.test.js checking '/graphql' route
+
+## USING EXPRESS-GRAPHQL AND GRAPHIQL
+
+1. install epxress-graphql and save dependencies
+2. in server.js file:
+    * import express-graphql
+    * use express-graphql in middleware for '/graphql' route
+    * delete old routing for '/graphql'
+    * delete body-parser
+    * remove all unused code
+3. open http://localhost:3000/graphql in browser
+4. check docs and test query for me field
+5. run tests
+6. remove unused modolues in package.json
