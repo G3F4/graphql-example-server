@@ -4,7 +4,7 @@
   "description": "Example of basic implementation of GraphQL server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "dev": "node index.js",
     "dev:watch": "nodemon index.js"
   },
@@ -31,6 +31,9 @@
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.16.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.1.2",
     "nodemon": "^1.11.0"
   }
 }

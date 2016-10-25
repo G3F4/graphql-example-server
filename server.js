@@ -7,6 +7,7 @@ const PORT = 3000;
 
 express()
   .use(bodyParser.text({ type: 'application/graphql' }))
-  .post('/graphql', (req, res) => graphql(schema, req.body)
-    .then((result) => console.log(['result'], result) || res.send(JSON.stringify(result, null, 2))))
+  .get('/', (req, res) => console.log(['GET']) || res.send('Hello'))
+  .post('/graphql', (req, res) => console.log(['body'], req.body) || graphql(schema, req.body)
+    .then((result) => console.log(['result'], result) || res.json(result)))
   .listen(PORT, () => console.log(`Server listening on localhost:${PORT}`));
