@@ -1,0 +1,31 @@
+{
+  "participants": [{
+    "id": "1",
+    "name": "Bolek",
+    "friendsIds": ["2", "3"],
+    "eventsIds": ["1"]
+  }, {
+    "id": "2",
+    "name": "Franek",
+    "friendsIds": ["1"],
+    "eventsIds": ["1"]
+  }, {
+    "id": "3",
+    "name": "Zenek",
+    "friendsIds": [],
+    "eventsIds": ["1", "2"]
+  }],
+  "events": [{
+    "id": "1",
+    "name": "WarsawJS",
+    "participantsIds": ["1", "2", "3"]
+  }, {
+    "id": "2",
+    "name": "React Warsaw",
+    "participantsIds": ["2"]
+  }, {
+    "id": "2",
+    "name": "Java Warsaw",
+    "participantsIds": []
+  }]
+}

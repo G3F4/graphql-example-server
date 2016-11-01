@@ -1,16 +1,8 @@
-import { GraphQLObjectType, GraphQLSchema, GraphQLString } from 'graphql';
+import { GraphQLSchema } from 'graphql';
 
-const schema = new GraphQLSchema({
-  query: new GraphQLObjectType({
-    name: 'Query',
-    fields: {
-      // curl -XPOST -H "Content-Type:application/graphql"  -d 'query Query { me }' http://localhost:3000/graphql
-      me: {
-        type: GraphQLString,
-        resolve: () => 'Gitara siema!'
-      }
-    }
-  })
-});
+import query from './query';
+import mutation from './mutation';
+
+const schema = new GraphQLSchema({ query, mutation });
 
 export default schema;

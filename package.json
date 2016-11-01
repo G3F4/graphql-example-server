@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/G3F4/graphql-example-server#readme",
   "dependencies": {
+    "babel": "^6.5.2",
     "babel-register": "^6.16.3",
     "express": "^4.14.0",
     "express-graphql": "^0.5.4",
